@@ -1,0 +1,37 @@
+GET {{baseUrl}}/api/sportsman
+Content-Type: application/json
+
+###
+GET {{baseUrl}}/api/sportsman/excel
+Content-Type: application/json
+###
+
+
+GET http://localhost:7777/api/sportsman/10e41072-d889-4458-92cd-8159b9d56fec
+Content-Type: application/json
+
+###
+DELETE http://localhost:7777/api/sportsman/53be9fbb-95e4-42aa-9ff7-88514d135df2
+Content-Type: application/json
+
+###
+
+POST http://localhost:7777/api/sportsman
+Content-Type: application/json
+
+{
+  "name": "Джон",
+  "surname": "Д2",
+  "barcode": "11112"
+}
+
+###
+PUT http://localhost:7777/api/sportsman
+Content-Type: application/json
+
+{
+  "id": "1d5ebdc8-0f34-44e4-9ce4-4802d71b8a84",
+  "name": "Джон1",
+  "surname": "Д1",
+  "barcode": "123456"
+}

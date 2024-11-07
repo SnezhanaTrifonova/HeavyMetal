@@ -1,0 +1,37 @@
+GET http://localhost:7777/api/subscription/purchased
+Content-Type: application/json
+
+###
+GET http://localhost:7777/api/subscription/purchased/bySportsman/d1f52db3-0985-4641-8012-cfb092a094f1?active=true
+Content-Type: application/json
+
+###
+GET http://localhost:7777/api/subscription/purchased/f0e595ea-d1d3-4673-86e6-289e5e754fe1
+Content-Type: application/json
+
+###
+DELETE http://localhost:7777/api/subscription/purchased/88653408-6099-4e10-935f-27ec64d0b731
+Content-Type: application/json
+
+###
+POST http://localhost:7777/api/subscription/purchased
+Content-Type: application/json
+
+{
+  "sportsmanId": "57df476c-e514-4285-9872-290b754c0099",
+  "subscriptionId": "b3d3e81a-b165-4981-bbae-289336edbdd0",
+  "paid": 1200
+}
+
+###
+PUT http://localhost:7777/api/subscription/purchased
+Content-Type: application/json
+
+{
+  "id": "1c559d44-4a32-4f0c-855d-6e5965325c55",
+  "sportsmanId": "f0e595ea-d1d3-4673-86e6-289e5e754fe1",
+  "subscriptionId": "cf52ee97-908d-41b2-869c-3480a77c8e85",
+  "startedDate": "2024-01-15T23:06:07.5139397",
+  "stoppedDate": "2024-03-15T23:06:07.5139397",
+  "paid": 1620.80
+}

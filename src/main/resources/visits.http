@@ -1,0 +1,17 @@
+GET http://localhost:7777/api/visits/count?sportsmanId=d1f52db3-0985-4641-8012-cfb092a094f1
+Content-Type: application/json
+
+
+###
+DELETE http://localhost:7777/api/visits/c63f0839-67ef-4bcf-9834-ca01a37e5142
+Content-Type: application/json
+
+###
+
+POST http://localhost:7777/api/visits
+Content-Type: application/json
+
+{
+  "sportsmanId": "5e1b5fa5-e634-45c7-b894-0c5041b6cb0d",
+  "purchasedSubscriptionId": "9ddf0a97-acc8-4b9b-9f0c-2e25ee37ad5f"
+}

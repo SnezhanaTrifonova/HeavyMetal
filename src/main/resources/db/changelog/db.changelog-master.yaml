@@ -1,0 +1,13 @@
+# See: https://docs.liquibase.com/concepts/changelogs/attributes/include.html
+
+databaseChangeLog:
+- include:
+    file: db/000-createSportsmanTable.sql
+- include:
+      file: db/001-createSubscriptionTable.sql
+- include:
+    file: db/002-createPurchasedSubscriptionTable.sql
+- include:
+    file: db/003-createVisitsTable.sql
+- include:
+    file: db/004-createDiscountByCountVisitsTable.sql
